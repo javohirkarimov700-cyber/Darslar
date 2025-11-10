@@ -1,24 +1,57 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-				<meta charset="UTF-8">
-				<meta name="viewport" content="width=device-width, initial-scale=1.0">
-				<title>Главная</title>
-				<link rel="stylesheet" href="/static/css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">               		
+	<link rel="stylesheet" href="/static/css/style.css">
 
 </head>
 <body>
-	<nav>
-		<a href="index.html">Главная</a>
-		<a href="phone.html">Телефоны</a>
-		<a href="other.html">Другие вещи</a>
-	</nav>
 
-	<main class="container">
-		<h1>Добро пожаловать</h1>
-		<p>Простой адаптивный сайт на трех страницах, стили оформлены с помощью Sass/CSS.</p>
+
+	<header class="header">
+		<nav class="nav">
+			<div class="nav__brand">
+				Portfolio
+			</div>
+
+			<ul class="nav-menu">
+				<li class="nav-menu__iteam">
+					<a href="#" class="nav-menu__link">
+						Главная
+					</a>
+				</li>
+				<li class="nav-menu__iteam">
+					<a href="#" class="nav-menu__link">
+						Loyihalar
+					</a>
+				</li>
+				<li class="nav-menu__item">
+					<a href="#" class="nav-menu__link">
+						Bog'lanish
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+
+	<main class="home container">
+		<div class="home__image">
+			<img src="/static/images/home-image.png">
+		</div>
+		<h1 class="home__title">
+			Portfolio vebsayt
+		</h1>
+		<p class="home__description">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+		</p>
 	</main>
 
+	<footer class="footer">
+		Copyright 2021
+	</footer>
 </body>
+
+
 </html>
 
