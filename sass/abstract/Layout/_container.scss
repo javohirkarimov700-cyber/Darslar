@@ -1,27 +1,28 @@
 @use "../abstract/mixins";
 
-.container {
+.container{
     width: 90%;
 }
 
-@include mixins.media-sm {
-    .container {
+@include mixins.madia-sm{
+    .container{
         width: 600px;
     }
 }
 
-@include mixins.media-md{
+@include mixins.madia-md{
     .container{
         width: 700px;
     }
 }
-@include mixins.media-lg{
+
+@include mixins.madia-lg{
     .container{
         width: 900px;
     }
 }
 
-@include mixins.media-xl{
+@include mixins.madia-xl{
     .container{
         width: 1000px;
     }
